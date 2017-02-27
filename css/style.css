@@ -1,0 +1,126 @@
+/************menu******************8*/
+.col-sm-4{
+    font-family: 'Fredoka One', cursive;
+    font-size: 30px;
+}
+
+.col-sm-2 a{
+    text-transform: uppercase;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: none;
+}
+
+header {
+  text-align: center;
+  background: #393D3F;
+  position: fixed;
+  top:0;
+  z-index: 100;
+  width:100%;
+}
+
+header .row a{
+    color: white;
+    text-decoration: none;
+}
+
+header a:hover{
+    color: #817E9F;
+}
+
+h1, h2{
+    font-family: 'Fredoka One', cursive;
+    text-align: center;
+}
+
+h1{
+    font-size: 70px;
+}
+
+h2{
+    font-size: 50px;
+    padding-bottom: 15px;
+}
+
+h3{
+    font-family: 'Open Sans';
+    font-size: 30px;
+    font-weight: normal;
+}
+
+/*********content*************/
+section{
+    padding:25px;
+}
+
+#head p{
+    font-size: 16px;
+}
+
+#head img{
+    padding-top: 50px;
+}
+
+#head{
+    display: block;
+    text-align: center;
+    background-color: #6441A4;
+    color: white;
+    margin-top: 25px;
+    padding: 80px;
+}
+
+#software, #tools, #fan-engagement, #monetize{
+    padding-top: 75px;
+}
+
+#software .thumbnail{
+    height: 225px;
+}
+
+#tools .thumbnail, #fan-engagement .thumbnail{
+    height: 250px;
+}
+
+#monetize .thumbnail{
+    height: 250px;
+}
+
+#tools, #monetize h2{
+    color: white;
+}
+
+#software{
+    background: #F7F3E3;
+}
+
+#tools{
+    background: #817E9F;
+}
+
+#fan-engagement{
+    background: #F7F3E3;
+}
+
+#monetize{
+    background: #817E9F;
+}
+
+#footer{
+    text-align: center;
+    background: #817E9F;
+}
+
+@media (max-width: 768px) {
+
+    h1, h2{
+        font-size: 30px;
+    }
+
+    h3{
+        font-size: 20px;
+    }
+
+}
