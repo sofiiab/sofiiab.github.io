@@ -80,7 +80,11 @@ section{
     height: 425px;
 }
 
-#tools .thumbnail, #fan-engagement .thumbnail, #monetize .thumbnail{
+#tools .thumbnail{
+    height: 400px;
+}
+
+#fan-engagement .thumbnail, #monetize .thumbnail{
     height: 400px;
 }
 
